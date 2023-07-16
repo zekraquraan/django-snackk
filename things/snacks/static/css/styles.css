@@ -13,3 +13,24 @@ p {
     color:white;
     font-weight: bold;
 }
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  .left-link,
+  .right-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  
+  .left-link:hover,
+  .right-link:hover {
+    background-color: #ddd;
+  }
+
+ 
